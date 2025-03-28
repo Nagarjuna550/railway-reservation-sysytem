@@ -1,0 +1,439 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'poppins',sans-serif;  
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/ihome.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+.logo{
+    border-radius: 50%;
+    width:100px;
+    cursor:pointer;
+}
+.nav-links li{
+    font-size: 20px;
+    list-style:none;
+    display: inline-block;
+    margin: 10px 30px;  
+}
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(53, 248, 79);
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.nav-links a:hover{
+    color:rgb(246, 248, 245)
+
+}    
+
+.register-btn {
+    
+    background: rgb(48, 232, 76);
+    border: none;
+    width: 170px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius:20px;
+    text-decoration:none;
+    font-size:20px;
+    transition: .4s ease;
+    cursor:pointer;
+}
+
+
+.register-btn :hover {
+        background-color:chartreuse;
+    
+}
+.content{
+    width:1200px;
+    height:auto;
+    margin-left:5%;
+    color:#fff;
+    position:relative;
+}
+.content.par{
+    padding-left: 25px;
+    padding-bottom: 25px;
+    font-family:Arial;
+    letter-spacing:1.2px;
+    line-height:30px;
+
+}
+.content h1{
+    font-family:'Times New Roman';
+    font-size:50px;
+    padding-left: 20px;
+    margin-top: 5%;
+    padding-bottom: 4%;
+    letter-spacing:2px;
+}
+.content .cn{
+    width:160px;
+    height:40px;
+    background:rgb(88, 255, 63);
+    border:none;
+    margin-top: 60px;
+    margin-bottom:10px;
+    margin-left:20px;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+    transition: .4s ease;
+
+}
+.content .cn a{
+    text-decoration: none;
+    color:rgb(5, 5, 5);
+    transition: .3s ease;
+
+}
+.cn:hover{
+    background-color:rgb(253, 254, 253)
+
+}
+.form{
+    width:300px;
+    height:500px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position:absolute;
+    top:-20px;
+    left:990px;
+    border-radius:20px;
+    padding:40px;
+}
+.form h2{
+    width:220px;
+    font-family: sans-serif;
+    text-align:center;
+    color:rgb(2, 2, 2);
+    font-size: 22px;
+    background-color:rgb(99, 249, 97);
+    border-radius:10px;
+    margin:5px;
+    padding:8px;
+    cursor:pointer;
+    transition: 0.4s ease-in-out;
+}
+.form h2:{
+    background-color: rgb(251, 253, 251);
+    
+}
+.form input{
+    width:240px;
+    height:35px;
+    background:transparent;
+    border-bottom: 1px solid greenyellow;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    color:white;
+    font-size:15px;
+    letter-spacing:1px;
+    margin-top:30px;
+    font-family:sans-serif;
+}
+.form input:focus{
+    outline:none;
+}
+::placeholder{
+    color:#fff;
+    font-family:Arial;
+}
+.form .link{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align:center;
+}
+.form .link a{
+    text-decoration:none;
+    color:rgb(73, 253, 100);
+}
+.liw{
+    padding-top:15px;
+    padding-bottom:10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration:none;
+    color:#fff
+}
+.icons ion-icon{
+    color:#fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color:rgb(64, 247, 73)
+}
+
+.container{
+    padding:0 7%;
+}
+.header1 {
+    font-size: 4vw;
+    font-weight:500;
+    color:rgba(46, 129, 37, 0.986);
+    text-align: center;
+    padding-top:7%;
+}
+.container{
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5)),url(img/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-family: sans-serif;
+}
+.search-field{
+    height: 50px;
+    padding:10px;
+    margin-top: 50px;
+    border-radius: 15px;
+    outline:none;
+    border-color: #fff;
+}
+.search-btn{
+    height:50px;
+    width:150px;
+    background:rgba(10, 179, 1, 0.936);
+    border:none;
+    color: #fff;
+    border-radius:25px;
+}
+.search-btn:hover{
+    background: greenyellow;
+    cursor:pointer;
+}
+.form-box{
+    background:rgba(159, 146, 146, 0.5);
+    padding:30px;
+    border-radius: 10px;
+}
+
+/*---------our servvices-------*/
+
+.subtitile{
+    margin:50px 0 20px;
+    font-size: 60px;
+    font-weight: bold;
+    color:rgba(41, 89, 31, 0.867);
+    text-align: center;
+    padding: 50px;
+    
+}
+.services{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:10px;
+}
+.services div img{
+    width:60%;
+    height: 70%;
+    border-radius: 10%;
+    margin-left: 80px;
+    display:block;
+    transition: 0.5s;
+}
+.services div img:hover{
+    transform:scale(1.1);
+    z-index:2;
+}
+
+.services div{
+position: relative;
+}
+.exclusive div span{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+/*---------------------Trending Places---------------------------*/
+.trending{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap:30px;
+    margin-bottom:30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.trending div img{
+    width:100%;
+    border-radius:10px;
+    display:block;
+    transition: 1s;
+}
+.trending h3{
+    font-weight:600;
+    margin-top:10px;
+}
+.trending div img:hover{
+    transform:scale(1.15);
+    z-index:2;
+}
+/*--------------cta------------------*/
+.cta{
+    margin:80px 0;
+    background-position: center;
+    background-size:cover;
+    background-image: linear-gradient(to right, #0cb30f, transparent),url(img/intern-banner.jpg);
+    border-radius:10px;
+    padding: 5%;
+    color:#fff;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.cta h3{
+    font-size:4vw;
+    line-height: 5.3vw;
+    font-weight: 500;
+}
+.cta p{
+    font-size: 18px;
+    margin:10px 0;
+}
+.cta-btn{
+    background:#fbfcfb;
+    color:black;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius:8px;
+    margin-top:20px;
+    display:inline-block;
+}
+/*------------------about-msg-------------------*/
+.about-msg{
+    text-align: center;
+    margin:80px 0;
+    color:#333;
+    font-size:15px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.about-msg h2{
+    font-size:38px;
+    margin-bottom:30px;
+    font-weight:500;
+}
+/*--------------foooter--------------------*/
+.footer{
+    margin:80px 10px;
+    text-align: center;
+}
+.footer a{
+color:#09850b98;
+text-decoration:none;
+font-size:22px;
+margin:0 10px;
+}
+.footer hr{
+    background:#999;
+    height:2px;
+    width:100%;
+    border:0;
+    margin:20px 0;
+}
+.footer p{
+    padding-bottom:20px;
+}
+
+
+/*---------------toristtrains.html------------------*/
+.nav-white{
+    background:rgba(16, 91, 21, 0.441);
+    box-shadow:0 5px 10px rgba(0,0,0,0.3);
+  }
+.nav-white .nav-links li a{
+    color:rgb(64, 153, 44);
+  }
+.list-contain{
+    margin-top:2%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.left-col{
+    flex-basis:70%;
+}
+.left-col h1{
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.left-col p{
+font-size: 30px;
+margin-left: 50px;
+}
+
+.right-col{
+    felx-basis:25%;
+}
+.left-col h1{
+    color:rgb(49, 133, 43);
+    font-weight:600;
+    margin-bottom:30px;
+}
+.maharaj{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:30px 0;
+    border-top:1px solid #ccc;
+    float:left;
+}
+.maharaj-img{
+    flex-basis:40%;
+}
+.maharaj-info{
+    font-size: 20px;
+    color:rgb(21, 32, 21);
+}
+
+.maharaj-img img{
+    width:500px;
+    border-radius: 12px;
+}
+.maharaj-info h3{
+    font-size:30px;
+    margin-left:50px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+.maharaj-info .p1{
+    margin-top: 5px;
+    margin-left:50px;
+}
+.maharaj-info p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.maharaj-info .p2{
+    margin-left:50px;
+    margin-top:10px;
+}
+.maharaj-info i{
+    padding-left: 50px;
+    width:0.1px;
+    color:rgb(102, 255, 0)
+
+}
