@@ -1,2 +1,2 @@
 # railway-reservation-sysytem
-railway reservation system project using HTML and CSS 
+ Created a railway reservation system website using HTML and CSS. Enabled ticket booking with real-time availability, allowing users to select travel dates and destinations easily. Integrated an international booking feature, supporting global train routes and enhancing the system's versatility. Displayed real-time train schedules, departure times, and seat availability to provide up-to-date travel information. Implemented a responsive design, ensuring smooth user experience across desktops, tablets, and smartphones with Visual enhancements.
